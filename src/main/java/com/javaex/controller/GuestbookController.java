@@ -53,8 +53,6 @@ public class GuestbookController {
 	public String deleteForm(@ModelAttribute GuestbookVo guestboookVo) {
 		System.out.println("GuestbookController=deleteForm");
 		
-		guestbookVo.getNo();
-	
 	return "deleteForm";
 }
 //삭제
